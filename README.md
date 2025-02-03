@@ -7,6 +7,7 @@ align_sample/text_kana_basic5000で記号を除去し，align_sampleでエラー
 
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
+※形式；Start, End, Mora
 
 * [hubert_2.ipynb](./hubert_2.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
@@ -37,10 +38,12 @@ Mora+特徴量にアクセントを追加．
 * [rinna_F_A](./rinna_F_A)<br>
 make_F_A.ipynbで作成．<br>
 HuBERTで抽出し，平均プーリング実行後の特徴量の最終列に，アクセント列（0，1）を追加したデータ．<br>
+※形式；Feature_0,..., Feature_767, Accent
 
 * [fix_f0_stac_result_5000](./fix_f0_stac_result_5000)<br>
 f0_stac_sample3.pyで作成．<br>
 F0の統計値（平均値，最大値，最小値，標準偏差，中央値）の最終列に，アクセント列（0，1）を追加したデータ．<br>
+※形式；
 
 
 ## 実験
