@@ -3,13 +3,16 @@
 * [julius](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment)<br>
 fujielab_tools/julius-alignmentの説明に従ってインストール．<br>
 align_sample/text_kana_basic5000で前処理を，align_sampleでエラー処理を実行．<br>
-align_result_5000に保存．<br>
+結果をalign_result_5000に保存．<br>
 
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
 
-* [FAの抽出](./hubert.ipynb)<br>
+* [hubert.ipynb](./hubert.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
+アライメント情報をもとにモーラ単位に分割<br>
+各モーラのFAの平均プーリングを実行．
+
 
 * [FAの学習データ](./align_result_5000)<br>
 いいいい
