@@ -5,6 +5,7 @@ Juliusで取得したデータにモーラ列を追加．<br>
 * [julius](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment)<br>
 fujielab_tools/julius-alignmentの説明に従ってインストール．<br>
 align_sample/text_kana_basic5000で前処理を，align_sampleでエラー処理を実行．<br>
+結果をalign_result_5000に保存．
 
 * [FAの抽出](./align_result_5000)<br>
 いいいい
