@@ -10,15 +10,16 @@ Juliusで取得したアライメントを保存．<br>
 
 * [hubert_2.ipynb](./hubert_2.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
-アライメント情報をもとにモーラ単位に分割<br>
-※平均プーリングしてない？<br>
+アライメント情報をもとにモーラ単位に分割．<br>
+平均プーリングを実行．<br>
+保存先；basic5000_jp_HuBERT_features_csv<br>
+※形式；Mora，Feature
 
 * [make_F_A.ipynb](./make_F_A.ipynb)<br>
 FAの学習データである，rinna_F_Aを作成．
-BASIC5,000の音声をHuBERTに入力してF0を抽出<br>
-アライメント情報をもとにモーラ単位に分割<br>
-各モーラ毎に平均プーリングを実行．<br>
-アクセント列を最終列に追加<br>
+basic5000_jp_HuBERT_features_csvのMora列を削除し、アクセント列を追加．
+アクセント列は，basic5000_features_with_accentのアクセント列を別ディレクトリ（new_directory_transformed）に保存したものを使用．<br>
+new_directory_transformedには，row_1.csv, row_2.csv, ..., row_5000.csvがあり，中にAccentというヘッダーで各行に一文字ずつ（一列）0か1が保存されている．<br>
 
 * [f0_stac_sample3.py](./f0_stac_sample3.py)<br>
 F0の学習データである，fix_f0_stac_result_5000を作成．
@@ -26,6 +27,10 @@ BASIC5,000の音声をPyWorldに入力してF0を抽出<br>
 アライメント情報をもとにモーラ単位に分割<br>
 各モーラ毎のF0の統計値（平均値，最大値，最小値，標準偏差，中央値）を取得<br>
 アクセント列を最終列に追加<br>
+
+* [fix_onso_features_accent.ipynb](./fix_onso_features_accent.ipynb)<br>
+Mora+特徴量にアクセントを追加．
+保存先；basic5000_features_with_accent<br>
 
 ## 学習データ
 * [rinna_F_A](./rinna_F_A)<br>
