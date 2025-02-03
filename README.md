@@ -6,7 +6,7 @@ align_sample/text_kana_basic5000で前処理を，align_sampleでエラー処理
 align_result_5000に保存．<br>
 
 * [align_result_5000](./align_result_5000)<br>
-Juliusで取得したデータにモーラ列を追加．<br>
+Juliusで取得したアライメントを保存．<br>
 
 * [FAの抽出](./align_result_5000)<br>
 いいいい
