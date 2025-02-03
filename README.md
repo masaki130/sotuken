@@ -2,7 +2,7 @@
 ## ファイルの説明
 * [julius](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment)<br>
 fujielab_tools/julius-alignmentの説明に従ってjuliusをインストール．<br>
-align_sample/text_kana_basic5000で前処理を，align_sampleでエラー処理を実行．<br>
+align_sample/text_kana_basic5000で記号を除去し，align_sampleでエラー処理を実行．<br>
 結果は，align_result_5000に保存．<br>
 
 * [align_result_5000](./align_result_5000)<br>
