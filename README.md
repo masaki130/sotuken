@@ -11,17 +11,17 @@ Juliusで取得したアライメントを保存．<br>
 * [hubert.ipynb](./hubert.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
 アライメント情報をもとにモーラ単位に分割<br>
-各モーラ毎にFAの平均プーリングを実行．
+※平均プーリングしてない？<br>
 
 * [make_F_A.ipynb](./make_F_A.ipynb)<br>
-FAの学習データ，rinna_F_Aを作成．
+FAの学習データである，rinna_F_Aを作成．
 BASIC5,000の音声をHuBERTに入力してF0を抽出<br>
 アライメント情報をもとにモーラ単位に分割<br>
 各モーラ毎に平均プーリングを実行．<br>
 アクセント列を最終列に追加<br>
 
 * [f0_stac_sample3.py](./f0_stac_sample3.py)<br>
-F0の学習データ，fix_f0_stac_result_5000を作成．
+F0の学習データである，fix_f0_stac_result_5000を作成．
 BASIC5,000の音声をPyWorldに入力してF0を抽出<br>
 アライメント情報をもとにモーラ単位に分割<br>
 各モーラ毎のF0の統計値（平均値，最大値，最小値，標準偏差，中央値）を取得<br>
@@ -30,11 +30,11 @@ BASIC5,000の音声をPyWorldに入力してF0を抽出<br>
 ## 学習データ
 * [rinna_F_A](./rinna_F_A)<br>
 make_F_A.ipynbで作成．<br>
-HuBERTで抽出した特徴量（hubert.ipynb）の最終列に，アクセント列を追加したデータ．<br>
+HuBERTで抽出し，平均プーリング実行後の特徴量の最終列に，アクセント列（0，1）を追加したデータ．<br>
 
 * [fix_f0_stac_result_5000](./fix_f0_stac_result_5000)<br>
 f0_stac_sample3.pyで作成．<br>
-F0の統計値（平均値，最大値，最小値，標準偏差，中央値）の最終列に，アクセント列を追加したデータ．<br>
+F0の統計値（平均値，最大値，最小値，標準偏差，中央値）の最終列に，アクセント列（0，1）を追加したデータ．<br>
 
 
 ## 実験
