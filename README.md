@@ -21,6 +21,13 @@ BASIC5,000の音声をPyWorldに入力してF0を抽出<br>
 各モーラのF0の統計値（平均値，最大値，最小値，標準偏差，中央値）を取得<br>
 アクセント列を最終列に追加<br>
 
+##学習データ
+* [rinna_F_A](./rinna_F_A)<br>
+HuBERTで抽出した特徴量の最終列に，アクセント列を追加したデータ．<br>
+
+* [fix_f0_stac_result_5000](./fix_f0_stac_result_5000)<br>
+F0の統計値（平均値，最大値，最小値，標準偏差，中央値）の最終列に，アクセント列を追加したデータ．<br>
+
 ## 実験
 * [FA+Transformer](./re5_TransF_FA.ipynb)<br>
 FAの学習データを，Transformerの入力に使用．<br>
