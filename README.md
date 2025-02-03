@@ -1,7 +1,7 @@
 # 音声からアクセントを推定する手法
 ## ファイルの説明
 * [アライメント](./align_result_5000)<br>
-Juliusで取得したデータを保存．<br>
+Juliusで取得したデータを保存．
 ** [julius]([http://qiita.com](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment))<br>
 
 * [FAの抽出](./align_result_5000)<br>
