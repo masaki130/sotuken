@@ -23,13 +23,13 @@ BASIC5,000の音声をPyWorldに入力してF0を抽出<br>
 
 ## 実験
 * [FA+Transformer](./re5_TransF_FA.ipynb)<br>
-aaa<br>
+FAの学習データを，Transformerの入力に使用．<br>
 
 * [F0+Transformer](./re5_TransF_F0.ipynb)<br>
-aaa<br>
+F0の学習データを，Transformerの入力に使用．<br>
 
 * [FA+LSTM](./re5_LSTM_FA.ipynb)<br>
-aaa<br>
+FAの学習データを，LSTMの入力に使用．<br>
 
 * [F0+LSTM](./re5_LSTM_F0.ipynb)<br>
-aaa<br>
+F0の学習データを，LSTMの入力に使用．<br>
