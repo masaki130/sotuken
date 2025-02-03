@@ -8,7 +8,7 @@ align_sample/text_kana_basic5000で前処理を，align_sampleでエラー処理
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
 
-* [hubert.ipynb](./hubert.ipynb)<br>
+* [hubert_2.ipynb](./hubert_2.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
 アライメント情報をもとにモーラ単位に分割<br>
 ※平均プーリングしてない？<br>
