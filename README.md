@@ -43,7 +43,7 @@ HuBERTで抽出し，平均プーリング実行後の特徴量の最終列に�
 * [fix_f0_stac_result_5000](./fix_f0_stac_result_5000)<br>
 f0_stac_sample3.pyで作成．<br>
 F0の統計値（平均値，最大値，最小値，標準偏差，中央値）の最終列に，アクセント列（0，1）を追加したデータ．<br>
-※形式；
+※形式；Mean, Max, Min, Std, Median, Accent
 
 
 ## 実験
