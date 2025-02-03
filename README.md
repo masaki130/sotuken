@@ -1,4 +1,4 @@
-# Kendo Coupons
+# 音声からアクセントを推定する手法
 ## Table of content
 * [About](#about)
 * [Functionality](#functionality)
