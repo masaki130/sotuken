@@ -8,8 +8,9 @@ align_result_5000に保存．<br>
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
 
-* [FAの抽出](./align_result_5000)<br>
-いいいい
+* [FAの抽出](./hubert.ipynb)<br>
+basic5,000の音声からFAを抽出．<br>
+
 * [FAの学習データ](./align_result_5000)<br>
 いいいい
 * [F0の学習データ](./f0_stac_sample2.py)<br>
