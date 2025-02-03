@@ -1,5 +1,5 @@
 # 音声からアクセントを推定する手法
-## Table of content
+## ファイルの説明
 * [About](#about)
 * [Functionality](#functionality)
 * [Feature](#feature)
