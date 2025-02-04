@@ -3,7 +3,8 @@
 * [julius](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment)<br>
 fujielab_tools/julius-alignmentの説明に従ってjuliusをインストール．<br>
 align_sample/text_kana_basic5000で記号を除去し，align_sampleでエラー処理を実行．<br>
-保存先；align_result_5000<br>
+保存先；align_result_01<br>
+コピペ先；align_result_5000<br>
 
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
@@ -15,6 +16,10 @@ basic5,000の音声からFAを抽出．<br>
 平均プーリングを実行．<br>
 保存先；basic5000_jp_HuBERT_features_csv<br>
 ※形式；Mora，Feature
+
+* [new_directory_transformed](./new_directory_transformed)<br>
+align_result_5000のアクセント列を保存．<br>
+全部で5000個のファイルを作成し，その中の一列目にAccentというヘッダーを，各行に一個のアクセントを保存．<br>
 
 * [make_F_A.ipynb](./make_F_A.ipynb)<br>
 FAの学習データである，rinna_F_Aを作成．<br>
