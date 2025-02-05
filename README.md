@@ -8,7 +8,7 @@ align_sample/text_kana_basic5000で記号を除去し，align_sampleでエラー
 
 * [align_result_5000](./align_result_5000)<br>
 Juliusで取得したアライメントを保存．<br>
-※形式；Start, End, Mora
+※形式；Start(s), End(s), Mora
 
 * [hubert_2.ipynb](./hubert_2.ipynb)<br>
 basic5,000の音声からFAを抽出．<br>
@@ -17,9 +17,9 @@ basic5,000の音声からFAを抽出．<br>
 保存先；basic5000_jp_HuBERT_features_csv<br>
 ※形式；Mora，Feature
 
-* [new_directory_transformed](./new_directory_transformed)<br>
-align_result_5000のアクセント列を保存．<br>
-全部で5000個のファイルを作成し，その中の一列目にAccentというヘッダーを，各行に一個のアクセントを保存．<br>
+* [make_new_directory_transformed.ipynb](./make_new_directory_transformed.ipynb)<br>
+"new_directory_transformed.ipynb"を作成．<br>
+※形式；Accent
 
 * [make_F_A.ipynb](./make_F_A.ipynb)<br>
 FAの学習データである，rinna_F_Aを作成．<br>
