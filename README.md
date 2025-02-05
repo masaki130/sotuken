@@ -18,7 +18,7 @@ basic5,000の音声からFAを抽出．<br>
 ※形式；Mora，Feature
 
 * [make_new_directory_transformed.ipynb](./make_new_directory_transformed.ipynb)<br>
-"new_directory_transformed.ipynb"を作成．<br>
+"new_directory_transformed"を作成．<br>
 ※形式；Accent
 
 * [make_F_A.ipynb](./make_F_A.ipynb)<br>
