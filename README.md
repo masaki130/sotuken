@@ -1,7 +1,7 @@
 # 音声からアクセントを推定する手法
 ## ファイルの説明
 * [julius](https://github.com/fujielab/fujielab_tools/tree/main/julius-alignment)<br>
-fujielab_tools/julius-alignmentの説明に従ってjuliusをインストール．<br>
+fujielab_tools/julius-alignmentの説明に従ってjuliusをインストール（python=3.9）．<br>
 align_sample/text_kana_basic5000で記号を除去し，align_sampleでエラー処理を実行．<br>
 保存先；align_result_01<br>
 コピペ先；align_result_5000<br>
